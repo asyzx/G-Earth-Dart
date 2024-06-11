@@ -1,0 +1,21 @@
+name: gearth
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+repository: https://github.com/asyzx/G-Earth-Dart
+
+environment:
+  sdk: ^3.1.4
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+  mockito:
+
+
+  sqflite_common_ffi:
+  path:
+
