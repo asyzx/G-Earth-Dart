@@ -14,9 +14,13 @@
 
     `flutter create <project_name>`
 
-3. Add the G-Earth package to your project
-
-    `flutter pub add gearth`
+3. Add the G-Earth package to your project by adding the following line as a dependency in your **pubspec.yaml** file:
+    ```
+    gearth:
+      git:
+        url: https://github.com/asyzx/G-Earth-Dart
+        ref: main
+    ```
 
 
 ## Usage
@@ -82,3 +86,5 @@ ext.intercept(Direction.TO_SERVER,'RoomUserTalk', on_speech);
 ## Additional information
 
 Join the G-Earth [Discord server](https://discord.com/invite/AVkcF8y)
+
+
